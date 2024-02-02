@@ -16,4 +16,4 @@ io.addListener('connection', (socket) => {
 aplicacao.use(express.static('public'));
 
 
-servidorHttp.listen(1000, '192.168.18.84');
+servidorHttp.listen(1000, '<coloqueseuip>');
